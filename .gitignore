@@ -1,0 +1,6 @@
+.sed -i '/SSLCertificateFile.*snakeoil.pem/cSSLCertificateFile /etc/ssl/certs/mycert.crt' /etc/apache2/sites-available/default-ssl.conf
+
+.env
+node_modules/ 
+package-lock.json
+dist
